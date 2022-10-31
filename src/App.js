@@ -3,6 +3,8 @@ import './App.css';
 import AddUser from './components/AddUser/AddUser';
 import Home from './components/Home/Home';
 
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 function App() {
   const router= createBrowserRouter([
     {
